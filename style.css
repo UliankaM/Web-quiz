@@ -1,6 +1,12 @@
 div{
 	display: none;
 }
-#start{
+.start{
 	display: inline;
+}
+body {
+    text-align:center;
+}
+.answers{
+	opacity: 0.8;
 }
