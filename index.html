@@ -10,15 +10,24 @@
 		<script type="text/javascript" src="myscript.js"></script>
 	</head>
 	<body>
-		<div id="start">
+		<div class="start">
 			<h3>Welcome to our quiz!</h3>
 			<p>To start it press the button belove.</p>
 			<button id="startbutton">START!</button>
 		</div>
-		<div id="questions">
-		<button id="finishgame">End the game</button>
+		<div class="questions">
+			<h4 id="question">This is question?</h4>
+			<form action="">
+				<input type="radio" class="answers" name="answer" id="ans1" value="1">hjkhj<br>
+				<input type="radio" class="answers" name="answer" id="ans2" value="2">hjg<br>
+				<input type="radio" class="answers" name="answer" id="ans3" value="3">МАМ<br>
+				<input type="radio" class="answers" name="answer" id="ans4" value="4">іфлд<br>
+			</form>
+			<br>
+			<button id="submit">Submit</button><br>
+			<button id="finishgame">End the game</button>
 		</div>
-		<div id="finish" >
+		<div class="finish" >
 			<h3>Congradulations on making a quiz!</h3>
 			<p>Your score is</p>
 			<p id="score"></p>
